@@ -14,7 +14,7 @@ metadata:
     legacy.stone.tech/internal-user-auth-base: sso
     legacy.stone.tech/access-request-type: service-now-stone
     legacy.stone.tech/handle-lgpd: "true"
-    	legacy.stone.tech/customer-auth-method: api-key
+    legacy.stone.tech/customer-auth-method: api-key
     stone.tech/endpoint-type: public
   links:
     - url: https://github.com/stone-payments/actions/deploy
