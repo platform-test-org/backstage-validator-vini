@@ -26,5 +26,5 @@ metadata:
 spec:
   type: website
   lifecycle: experimental
-  owner: group:pagarme/sre-platform
+  owner: pagarme/sre-platform
   system: system:pagarme/backstage
