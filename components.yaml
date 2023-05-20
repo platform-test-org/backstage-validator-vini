@@ -3,6 +3,6 @@ kind: Component
 metadata:
   name: backstage-demo2
   title: Backstage Demo2
-  description: Aplicação teste
+  description: Aplicação teste2
   namespace: stone
   
