@@ -4,5 +4,5 @@ metadata:
   name: backstage-demo2
   title: Backstage Demo2
   description: Aplicação teste
-  namespace: stone
+    namespace: stone
   
