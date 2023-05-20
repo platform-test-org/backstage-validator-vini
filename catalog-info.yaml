@@ -15,7 +15,7 @@ metadata:
     legacy.stone.tech/access-request-type: service-now-stone
     legacy.stone.tech/handle-lgpd: "true"
     legacy.stone.tech/customer-auth-method: api-key
-    stone.tech/endpoint-type: public
+    	stone.tech/endpoint-type: public
   links:
     - url: https://github.com/stone-payments/actions/deploy
       title: CD Pipeline
