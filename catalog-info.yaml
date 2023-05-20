@@ -9,7 +9,7 @@ metadata:
     legacy.stone.tech/owner-email: meu.email@stone.com.br
     legacy.stone.tech/prod-date: "2023-03-01"
     stone.tech/cloud-accounts: aws/pagarme-tools,gcp/sreplatform
-    	stone.tech/on-prem-sites: chicago1
+    stone.tech/on-prem-sites: chicago1
   labels:
     legacy.stone.tech/internal-user-auth-base: sso
     legacy.stone.tech/access-request-type: service-now-stone
