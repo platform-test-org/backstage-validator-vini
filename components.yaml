@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-demo2
+  title: Backstage Demo2
+  description: Aplicação teste
+    namespace: stone
+  
