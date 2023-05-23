@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-demo3
+  title: Backstage Demo3
+  description: Aplicação teste3
+  namespace: stone2
+spec:
+  type: website
+  lifecycle: experimental
+  owner: pagarme/sre-platform
+  system: system:pagarme/backstage
