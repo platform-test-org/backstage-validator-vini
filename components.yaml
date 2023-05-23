@@ -7,7 +7,7 @@ metadata:
   description: Aplicação teste3
   namespace: stone
 spec:
-  type: website
+    type: website
   lifecycle: experimental
   owner: pagarme/sre-platform
   system: system:pagarme/backstage
