@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-demo
-  title: Backstage Demo
-  description: Aplicação teste1
+  name: backstage-demo2
+  title: Backstage Demo2
+  description: Aplicação teste2
   namespace: stone
 spec:
   type: website
