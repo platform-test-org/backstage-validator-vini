@@ -7,7 +7,7 @@ metadata:
   description: Aplicação teste1
   namespace: stone
   annotations:
-    legacy.stone.tech/owner-email: meu.email@stone.com.br
+      legacy.stone.tech/owner-email: meu.email@stone.com.br
     legacy.stone.tech/prod-date: "2023-03-01"
     stone.tech/cloud-accounts: aws/pagarme-tools,gcp/sreplatform
     stone.tech/on-prem-sites: chicago1
