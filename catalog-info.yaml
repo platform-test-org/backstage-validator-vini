@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: backstage-demo
   title: Backstage Demo
-    escription: Aplicação teste1
+  description: Aplicação teste1
   namespace: stone
   annotations:
     legacy.stone.tech/owner-email: meu.email@stone.com.br
@@ -23,6 +23,20 @@ metadata:
       title: Monitoring
     - url: https://pagerduty.com/stone/backstage-demo
       title: Incident Manager
+spec:
+  type: website
+  lifecycle: experimental
+  owner: pagarme/sre-platform
+  system: system:pagarme/backstage
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-demo2
+  title: Backstage Demo2
+  description: Aplicação teste2
+  namespace: stone
 spec:
   type: website
   lifecycle: experimental
