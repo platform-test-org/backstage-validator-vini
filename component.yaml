@@ -1,12 +1,12 @@
-apiVersion: backstage.io/v1alpha1
-kind: Component
+apiVersion: v1
+kind: Pod
 metadata:
-  name: backstage-demo2
-  title: Backstage Demo2
-  description: Aplicação teste2
-  namespace: stone
+  name: nginx
+  annotations:
+    example: backstage.io
 spec:
-  type: website
-  lifecycle: experimental
-  owner: pagarme/sre-platform
-  system: system:pagarme/backstage
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
