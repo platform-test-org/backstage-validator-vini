@@ -123,3 +123,4 @@ spec:
   system: platform
   dependsOn:
     - resource:backstage-database
+    

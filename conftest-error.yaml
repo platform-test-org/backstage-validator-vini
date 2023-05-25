@@ -1,3 +1,4 @@
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -58,6 +59,6 @@ spec:
   type: second-error
   lifecycle: production
   owner: stone-payments/platform-squad-writer
-  system: platform2
+  system: platform
   dependsOn:
     - resource:backstage-database

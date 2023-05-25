@@ -4,7 +4,7 @@ metadata:
   name: backstage-demo3
   title: Backstage Demo3
   description: Aplicação teste3
-  namespace: stone2
+  namespace: stone
 spec:
   type: website
   lifecycle: experimental
