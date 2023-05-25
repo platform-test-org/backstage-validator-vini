@@ -123,6 +123,6 @@ spec:
   type: website
   lifecycle: production
   owner: stone-paymentsplatform-squad-writer
-  system: platform2
+  system: platform
   dependsOn:
     - resource:backstage-database
