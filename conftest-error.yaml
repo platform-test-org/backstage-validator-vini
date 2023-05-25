@@ -58,6 +58,6 @@ spec:
   type: second-error
   lifecycle: production
   owner: stone-payments/platform-squad-writer
-  system: platform
+  system: platform2
   dependsOn:
     - resource:backstage-database
