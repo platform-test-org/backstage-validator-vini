@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-portal
-  namespace: first-error2
+  namespace: first-error
   title: Backstage Portal
   description: The StoneCo developer portal
   annotations:
