@@ -2,7 +2,39 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-portal
+  name: backstage-portal 1
+  namespace: stone-payments
+  title: Backstage Portal 1
+  description: The StoneCo developer portal
+  annotations:
+    stone.tech/cloud-accounts: aws/pagarme-tools
+    legacy.stone.tech/prod-date: "2023-03-01"
+    legacy.stone.tech/owner-email: dmorales@stone.com.br
+  labels:
+    stone.tech/endpoint-type: private
+    legacy.stone.tech/internal-user-auth-base: sso
+    legacy.stone.tech/access-request-type: github
+    legacy.stone.tech/handle-lgpd: "false"
+    legacy.stone.tech/customer-auth-method: not-applicable
+  links:
+    - url: https://github.com/pagarme/backstage/actions/workflows/deploy_prd.yaml
+      title: CD Pipeline
+    - url: https://app.datadoghq.com/dashboard/fpr-ncq-gnm/backstage
+      title: Monitoring
+    - url: https://app.datadoghq.com/monitors/manage?q=service%3A%22backstage%22
+      title: Incident Manager
+spec:
+  type: website
+  lifecycle: production
+  owner: stone-payments/platform-squad-writer
+  system: platform
+  dependsOn:
+    - resource:backstage-database
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-portal2
   namespace: stone-payments
   title: Backstage Portal
   description: The StoneCo developer portal
@@ -34,41 +66,12 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-portal 2
+  name: backstage-portal3
   namespace: stone-payments
-  title: Backstage Portal 2
+  title: Backstage Portal
   description: The StoneCo developer portal
-  annotations:
+    annotations:
     stone.tech/cloud-accounts: aws/pagarme-tools
-    legacy.stone.tech/prod-date: "2023-03-01"
-    legacy.stone.tech/owner-email: dmorales@stone.com.br
-  labels:
-    stone.tech/endpoint-type: private
-    legacy.stone.tech/internal-user-auth-base: sso
-    legacy.stone.tech/access-request-type: github
-  links:
-    - url: https://github.com/pagarme/backstage/actions/workflows/deploy_prd.yaml
-      title: CD Pipeline
-    - url: https://app.datadoghq.com/dashboard/fpr-ncq-gnm/backstage
-      title: Monitoring
-    - url: https://app.datadoghq.com/monitors/manage?q=service%3A%22backstage%22
-      title: Incident Manager
-spec:
-  type: website2
-  lifecycle: production
-  owner: stone-payments/platform-squad-writer
-  system: platform2
-  dependsOn:
-    - resource:backstage-database
----
-apiVersion: backstage.io/v1alpha1
-kind: Component
-metadata:
-  name: backstage-portal 3
-  namespace: stone-payments
-  title: Backstage Portal 3
-  description: The StoneCo developer portal
-  annotations:
     legacy.stone.tech/prod-date: "2023-03-01"
     legacy.stone.tech/owner-email: dmorales@stone.com.br
   labels:
@@ -95,9 +98,9 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage-portal 4
+  name: backstage-portal
   namespace: stone-payments
-  title: Backstage Portal 4
+  title: Backstage Portal
   description: The StoneCo developer portal
   annotations:
     stone.tech/cloud-accounts: aws/pagarme-tools
@@ -119,8 +122,7 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: stone-payments/platform-squad-writer
+  owner: stone-paymentsplatform-squad-writer
   system: platform
   dependsOn:
     - resource:backstage-database
-    

@@ -1,4 +1,4 @@
-apiVersion: backstage.com/v1alpha2
+apiVersion: backstage.com/v1alpha3
 kind: Pod
 metadata:
   name: nginx
