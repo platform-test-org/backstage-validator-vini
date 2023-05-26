@@ -4,7 +4,7 @@ kind: Component
 metadata:
   name: backstage-portal
   namespace: first-error
-  title: Backstage Portal
+  title: Backstage Portal Error
   description: The StoneCo developer portal
   annotations:
     stone.tech/cloud-accounts: aws/pagarme-tools
