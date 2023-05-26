@@ -119,7 +119,7 @@ metadata:
 spec:
   type: website
   lifecycle: production
-  owner: group:stone-payments/platform-squad-writer
+  owner: stone-payments/platform-squad-writer
   system: platform
   dependsOn:
     - resource:backstage-database
