@@ -3,7 +3,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-portal
-  namespace: stone-payments
+  namespace: stone
   title: Backstage Portal
   description: The StoneCo developer portal
   annotations:
@@ -35,7 +35,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-portal 2
-  namespace: stone-payments
+  namespace: stone
   title: Backstage Portal 2
   description: The StoneCo developer portal 2
   annotations:
@@ -46,6 +46,8 @@ metadata:
     stone.tech/endpoint-type: private
     legacy.stone.tech/internal-user-auth-base: sso
     legacy.stone.tech/access-request-type: github
+    legacy.stone.tech/handle-lgpd: "false"
+    legacy.stone.tech/customer-auth-method: not-applicable
   links:
     - url: https://github.com/pagarme/backstage/actions/workflows/deploy_prd.yaml
       title: CD Pipeline
@@ -54,7 +56,7 @@ metadata:
     - url: https://app.datadoghq.com/monitors/manage?q=service%3A%22backstage%22
       title: Incident Manager
 spec:
-  type: website2
+  type: website
   lifecycle: production
   owner: stone-payments/platform-squad-writer
   system: platform2
@@ -65,10 +67,11 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-portal 3
-  namespace: stone-payments
+  namespace: stone
   title: Backstage Portal 3
   description: The StoneCo developer portal 3
   annotations:
+    stone.tech/cloud-accounts: aws/pagarme-tools
     legacy.stone.tech/prod-date: "2023-03-01"
     legacy.stone.tech/owner-email: dmorales@stone.com.br
   labels:
@@ -96,7 +99,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: backstage-portal 4
-  namespace: stone-payments
+  namespace: stone
   title: Backstage Portal 4
   description: The StoneCo developer portal 4
   annotations:
