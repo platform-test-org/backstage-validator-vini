@@ -37,7 +37,7 @@ metadata:
   name: backstage-portal 2
   namespace: stone-payments
   title: Backstage Portal 2
-  description: The StoneCo developer portal
+  description: The StoneCo developer portal 2
   annotations:
     stone.tech/cloud-accounts: aws/pagarme-tools
     legacy.stone.tech/prod-date: "2023-03-01"
@@ -67,7 +67,7 @@ metadata:
   name: backstage-portal 3
   namespace: stone-payments
   title: Backstage Portal 3
-  description: The StoneCo developer portal
+  description: The StoneCo developer portal 3
   annotations:
     legacy.stone.tech/prod-date: "2023-03-01"
     legacy.stone.tech/owner-email: dmorales@stone.com.br
@@ -98,7 +98,7 @@ metadata:
   name: backstage-portal 4
   namespace: stone-payments
   title: Backstage Portal 4
-  description: The StoneCo developer portal
+  description: The StoneCo developer portal 4
   annotations:
     stone.tech/cloud-accounts: aws/pagarme-tools
     legacy.stone.tech/prod-date: "2023-03-01"
