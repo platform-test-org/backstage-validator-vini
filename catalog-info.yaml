@@ -11,7 +11,7 @@ metadata:
       icon: dashboard
   annotations:
     backstage.io/techdocs-ref: dir:.
-    datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/242396a6-2011-11ee-869e-da7ad0900002-a4ead3fe0f55538aa97cd089d46e9855?from_ts=1689093863398&to_ts=1689097463398&live=true
+    datadoghq.com/dashboard-url: https://p.datadoghq.com/dashboard/public/access?auth_token=qjg9xdndq3qs73umazbvuaip4pyvslndqpdk4yahjqq3mvfc7y6wwiw7g6ih0ww6&share_token=242396a6-2011-11ee-869e-da7ad0900002-a4ead3fe0f55538aa97cd089d46e9855
 spec:
   owner: stone-payments/platform-squad-writer
 
@@ -27,7 +27,7 @@ metadata:
     stone.tech/cloud-accounts: aws/pagarme-tools
     legacy.stone.tech/prod-date: "2023-03-01"
     legacy.stone.tech/owner-email: dmorales@stone.com.br
-    datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/242396a6-2011-11ee-869e-da7ad0900002-a4ead3fe0f55538aa97cd089d46e9855?from_ts=1689093863398&to_ts=1689097463398&live=true
+    datadoghq.com/dashboard-url: https://p.datadoghq.com/dashboard/public/access?auth_token=qjg9xdndq3qs73umazbvuaip4pyvslndqpdk4yahjqq3mvfc7y6wwiw7g6ih0ww6&share_token=242396a6-2011-11ee-869e-da7ad0900002-a4ead3fe0f55538aa97cd089d46e9855
   labels:
     stone.tech/endpoint-type: private
     legacy.stone.tech/internal-user-auth-base: sso
