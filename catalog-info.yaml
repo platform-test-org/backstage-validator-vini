@@ -12,6 +12,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/242396a6-2011-11ee-869e-da7ad0900002-a4ead3fe0f55538aa97cd089d46e9855
+    datadoghq.com/graph-token: 1d2c776ee5b885730c9be09d78811560fd384f0a95fa029df80aa1cc3e44eb43
 spec:
   owner: stone-payments/platform-squad-writer
 
@@ -28,6 +29,7 @@ metadata:
     legacy.stone.tech/prod-date: "2023-03-01"
     legacy.stone.tech/owner-email: dmorales@stone.com.br
     datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/242396a6-2011-11ee-869e-da7ad0900002-a4ead3fe0f55538aa97cd089d46e9855
+    datadoghq.com/graph-token: 1d2c776ee5b885730c9be09d78811560fd384f0a95fa029df80aa1cc3e44eb43
   labels:
     stone.tech/endpoint-type: private
     legacy.stone.tech/internal-user-auth-base: sso
