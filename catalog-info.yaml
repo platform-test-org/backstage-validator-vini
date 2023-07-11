@@ -1,3 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: platform
+  title: Backstage System
+  namespace: stone-payments
+  description: Backstage System
+  links:
+    - url: https://backstage.io/docs
+      title: Documentação oficial
+      icon: dashboard
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  owner: stone-payments/platform-squad-writer
+
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -57,7 +73,7 @@ spec:
   type: website2
   lifecycle: production
   owner: stone-payments/platform-squad-writer
-  system: platform2
+  system: platform
   dependsOn:
     - resource:backstage-database
 ---
