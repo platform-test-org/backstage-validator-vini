@@ -12,8 +12,8 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     datadoghq.com/site: datadoghq.com
-    datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/242396a6-2011-11ee-869e-da7ad0900002-a4ead3fe0f55538aa97cd089d46e9855
-    datadoghq.com/graph-token: 1d2c776ee5b885730c9be09d78811560fd384f0a95fa029df80aa1cc3e44eb43
+    datadoghq.com/dashboard-url: https://p.datadoghq.com/sb/242396a6-2011-11ee-869e-da7ad0900002-4a7fd318cc26964d24d8b5a67c417dd8
+    datadoghq.com/graph-token: 6f97a680fda637a8d49e502138f684dbba48dd4a5b9dfe35ccc39cb34b68eb08
 spec:
   owner: stone-payments/platform-squad-writer
 
