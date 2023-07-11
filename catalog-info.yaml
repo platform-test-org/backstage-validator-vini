@@ -11,6 +11,7 @@ metadata:
       icon: dashboard
   annotations:
     backstage.io/techdocs-ref: dir:.
+    datadoghq.com/dashboard-url: https://app.datadoghq.com/dashboard/3ud-aet-btx/backstage-metrics?from_ts=1689093438611&to_ts=1689094338611&live=true
 spec:
   owner: stone-payments/platform-squad-writer
 
@@ -26,6 +27,7 @@ metadata:
     stone.tech/cloud-accounts: aws/pagarme-tools
     legacy.stone.tech/prod-date: "2023-03-01"
     legacy.stone.tech/owner-email: dmorales@stone.com.br
+    datadoghq.com/dashboard-url: https://app.datadoghq.com/dashboard/3ud-aet-btx/backstage-metrics?from_ts=1689093438611&to_ts=1689094338611&live=true
   labels:
     stone.tech/endpoint-type: private
     legacy.stone.tech/internal-user-auth-base: sso
