@@ -98,7 +98,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: portal4
+  name: backstage-portal4
   namespace: stone
   title: Backstage Portal 4
   description: The StoneCo developer portal 4
