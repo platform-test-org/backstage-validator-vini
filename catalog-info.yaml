@@ -14,7 +14,7 @@ metadata:
     stone.tech/endpoint-type: private
     legacy.stone.tech/internal-user-auth-base: sso
     legacy.stone.tech/access-request-type: github
-    legacy.stone.tech/handle-lgpd: "false"
+    legacy.stone.tech/handle-lgpd: "fals"
     legacy.stone.tech/customer-auth-method: not-applicable
   links:
     - url: https://github.com/pagarme/backstage/actions/workflows/deploy_prd.yaml
